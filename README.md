@@ -1,19 +1,28 @@
-# 本棚アプリ
+# movie-client
 
-## 概要
-本を登録・管理できるアプリ
+映画管理アプリのフロントエンド
 
 ## 技術スタック
-- フロント：React, TailwindCSS
-- バック：Node.js
-- DB：MongoDB
+
+- React
+- Vite
 
 ## 機能
-- 本の登録
-- 本の削除
-- 本の変更
 
-## 学んだこと
-- API設計
-- フロントとバックの連携
-- MongoDBの基本操作
+- 映画一覧表示
+- 映画追加
+- 映画削除
+
+## セットアップ
+```bash
+npm install
+```
+
+## 起動
+```bash
+npm run dev
+```
+
+## 接続先
+
+`first-api`（http://localhost:3000）と連携
